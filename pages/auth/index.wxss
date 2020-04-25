@@ -1,0 +1,4 @@
+.wrap button {
+  width: 40rpx;
+  margin-top: 40rpx;
+}

@@ -1,0 +1,24 @@
+<view class="wrap">
+  <SearchInput />
+  <Tabs tabsList="{{tabs}}" bindtabsChange="handleChange">
+    <block wx:if="{{tabs[0].isActive}}">
+      <navigator  class="tabsItem"
+            wx:for="{{goodsList}}"
+            wx:key="goods_id"
+            url="/pages/goods_detail/index?goods_id={{item.goods_id}}"
+      >
+        <view class="itemImg">
+          <image mode="widthFix" src="{{item.goods_small_logo? item.goods_small_logo:'http://image5.suning.cn/uimg/b2c/newcatentries/0000000000-000000000160455569_1_400x400.jpg'}}" />
+        </view>
+        <view class="itemInfo">
+          <view class="info">{{item.goods_name}}</view>
+          <view class="price">{{item.goods_price}}</view>
+        </view>
+      </navigator>
+    </block>
+    <block wx:elif="{{tabs[1].isActive}}">2
+    </block>
+    <block wx:else>2
+    </block>
+  </Tabs>
+</view>

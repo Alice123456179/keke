@@ -1,0 +1,14 @@
+@import "./styles/iconfont";
+page,text,view,swiper,swiper-item,image,navigator{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+page{
+  --themeColor:#292929;
+  /* --themeColor:red; */
+
+}
+image{
+  width: 100%;
+}

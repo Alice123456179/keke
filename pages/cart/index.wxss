@@ -1,0 +1,117 @@
+page {
+  padding-bottom: 90rpx;
+}
+.addAddress {
+  padding: 20rpx;
+}
+.addAddress button {
+  width: 60%;
+  font-weight: 200;
+}
+.info {
+  display: flex;
+  padding: 20rpx;
+  font-size: 28rpx;
+}
+.info .infoAddress {
+  flex: 5;
+}
+.info .right {
+  flex: 3;
+  text-align: right;
+}
+.cartContent .cartTitle {
+  padding: 20rpx;
+  font-size: 32rpx;
+  font-weight: 600;
+  border-top: 4rpx solid grey;
+  border-bottom: 4rpx solid grey;
+}
+.cartContent .cartList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20rpx;
+  border-bottom: 1px solid grey;
+}
+.cartContent .cartList .check {
+  flex: 1;
+}
+.cartContent .cartList .cartImg {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cartContent .cartList .cartImg image {
+  width: 80%;
+}
+.cartContent .cartList .cartInfo {
+  flex: 4;
+}
+.cartContent .cartList .cartInfo .goodsName {
+  font-size: 30rpx;
+  color: grey;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.cartContent .cartList .cartInfo .priceGroup {
+  display: flex;
+  justify-content: space-between;
+}
+.cartContent .cartList .cartInfo .priceGroup .price {
+  font-weight: 600;
+  color: red;
+}
+.cartContent .cartList .cartInfo .priceGroup .num {
+  display: flex;
+}
+.cartContent .cartList .cartInfo .priceGroup .num .one {
+  width: 55rpx;
+  height: 55rpx;
+  border: 1rpx solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cartContent .cartList .cartInfo .priceGroup .num .center {
+  width: 55rpx;
+  height: 55rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jiesuan {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 90rpx;
+  width: 100%;
+  background: white;
+  border-top: 1rpx solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jiesuan .checkone {
+  flex: 2;
+  padding-left: 10rpx;
+}
+.jiesuan .total {
+  flex: 4;
+  text-align: right;
+  padding: 10rpx;
+  font-size: 30rpx;
+}
+.jiesuan .money {
+  flex: 2;
+  height: 100%;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}

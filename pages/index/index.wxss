@@ -1,0 +1,42 @@
+swiper {
+  width: 750rpx;
+  height: 340rpx;
+}
+swiper image {
+  width: 100%;
+}
+.nav {
+  display: flex;
+}
+.nav navigator {
+  padding: 20rpx;
+  flex: 1;
+}
+.nav navigator image {
+  width: 100%;
+}
+.floorList .floor .floorTitle {
+  padding: 10px 0;
+}
+.floorList .floor .floorTitle image {
+  width: 100%;
+}
+.floorList .floor .floorContent {
+  overflow: hidden;
+}
+.floorList .floor .floorContent navigator {
+  float: left;
+  width: 33.33%;
+}
+.floorList .floor .floorContent navigator:nth-last-child(-n+4) {
+  height: 27.72711207vw;
+  border-left: 10rpx solid white;
+}
+.floorList .floor .floorContent navigator:nth-child(2),
+.floorList .floor .floorContent navigator:nth-child(3) {
+  border-bottom: 10rpx solid white;
+}
+.floorList .floor .floorContent navigator image {
+  width: 100%;
+  height: 100%;
+}

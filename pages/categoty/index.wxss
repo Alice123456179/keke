@@ -1,0 +1,49 @@
+/* pages/categoty/index.wxss */
+page {
+  height: 100%;
+}
+.container {
+  height: 100%;
+}
+.container .cateContainer {
+  height: calc(100vh - 90rpx);
+  display: flex;
+}
+.container .cateContainer .left {
+  flex: 2;
+}
+.container .cateContainer .left .left-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80rpx;
+  font-size: 30rpx;
+}
+.container .cateContainer .right {
+  flex: 5;
+}
+.container .cateContainer .right .rightContainer .rightTitle {
+  height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .cateContainer .right .rightContainer .rightTitle .sign {
+  color: grey;
+  padding: 0 10rpx;
+}
+.container .cateContainer .right .rightContainer .content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .cateContainer .right .rightContainer .content navigator {
+  width: 33.33%;
+  text-align: center;
+}
+.container .cateContainer .right .rightContainer .content navigator image {
+  width: 50%;
+}
+.active {
+  color: #007ACC;
+  border-left: 10rpx solid #007ACC;
+}

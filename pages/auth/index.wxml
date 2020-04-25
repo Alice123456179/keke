@@ -1,0 +1,3 @@
+<view class="wrap">
+  <button plain="{{true}}" type="primary" open-type="getUserInfo" bindgetuserinfo="getUserInfo">授权</button>
+</view>

@@ -1,0 +1,32 @@
+.tabsItem {
+  display: flex;
+  border-bottom: 2rpx solid grey;
+  padding: 10rpx 0;
+}
+.tabsItem .itemImg {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tabsItem .itemImg image {
+  width: 70%;
+}
+.tabsItem .itemInfo {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 10rpx;
+}
+.tabsItem .itemInfo .info {
+  font-size: 28rpx;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.tabsItem .itemInfo .price {
+  color: #007ACC;
+  font-size: 32rpx;
+}

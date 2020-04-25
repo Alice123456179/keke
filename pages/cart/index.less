@@ -1,0 +1,126 @@
+page{
+  padding-bottom: 90rpx;
+}
+
+.addAddress{
+  padding:20rpx;
+  button{
+    width: 60%;
+    font-weight: 200;
+  }
+}
+.info{
+  display: flex;
+  padding: 20rpx;
+  font-size: 28rpx;
+  .infoAddress{
+    flex:5;
+  }
+  .right{
+    flex: 3;
+    text-align: right;
+  }
+}
+.cartContent{
+  .cartTitle{
+    padding: 20rpx;
+    font-size: 32rpx;
+    font-weight: 600;
+    border-top: 4rpx solid grey;
+    border-bottom: 4rpx solid grey;
+
+  }
+  .cartList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20rpx;
+    border-bottom: 1px solid grey;
+    .check{
+      flex:1
+    }
+    .cartImg{
+      flex: 2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      image{
+        width: 80%;
+      }
+    }
+    .cartInfo{
+      flex: 4;
+      .goodsName{
+        font-size: 30rpx;
+        color: grey;
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+      }
+      .priceGroup{
+        display: flex;
+        justify-content: space-between;
+        .price{
+          font-weight: 600;
+          color: red;
+        }
+        .num{
+          display: flex;
+          .one{
+            width: 55rpx;
+            height: 55rpx;
+            border: 1rpx solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+          }
+          .center{
+            width: 55rpx;
+            height: 55rpx;
+            // border: 1rpx solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+          }
+        }
+      }
+    }
+  }
+}
+
+.jiesuan{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 90rpx;
+  width: 100%;
+  background: white;
+  border-top: 1rpx solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .checkone{
+    flex:2;
+    padding-left:10rpx;
+  }
+  .total{
+    flex:4;
+    text-align: right;
+    padding: 10rpx;
+    font-size: 30rpx;
+  }
+  .money{
+    flex:2;
+    height: 100%;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    
+  }
+}
